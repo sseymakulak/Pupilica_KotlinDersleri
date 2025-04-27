@@ -1,16 +1,18 @@
 package com.example.kotlindersleri.odev
 
 fun main() {
-    val sonuc = celciusToFahrenhiet(32.0)
+
+
+    val sonuc = celciusToFahrenhiet(40.0)
     println("Sonuc : $sonuc")
 
     val cevre = dikdortgenCevreHesapla(5, 10)
     println("Dikdortgen cevresi : $cevre")
 
-    val faktoriyel = faktoriyelHesapla(5)
+    val faktoriyel = faktoriyelHesapla(4)
     println("Faktoriyel : $faktoriyel")
 
-    val count = countALetterInWord("Merhaba", 'a')
+    val count = countALetterInWord("Merhaba Dunya", 'a')
     println("a harfi sayisi : $count")
 
     val count2 = countALetterInWord2("Merhaba", 'a')
